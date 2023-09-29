@@ -1,0 +1,55 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_recipes",
+          "text": {
+            "fixedValue": "Recipes"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 192,
+          "y": 45
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "d.png",
+          "use1Xscale": true,
+          "x": 142,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "e.png",
+          "use1Xscale": true,
+          "x": 140,
+          "y": 122
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

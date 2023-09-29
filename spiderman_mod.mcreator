@@ -1,0 +1,311 @@
+{
+  "mod_elements": [
+    {
+      "name": "SpiderMan",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_man",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WebShooterProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "web_shooter_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/procedures/WebShooterProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WebShooterRangedItemUsed",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "web_shooter_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/procedures/WebShooterRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WebShooter",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "web_shooter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/entity/WebShooterEntity.java",
+          "src/main/resources/assets/spiderman_mod/models/item/web_shooter.json",
+          "src/main/java/net/mcreator/spidermanmod/item/WebShooterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SpidermanaliveThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spidermanalive_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/procedures/SpidermanaliveThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spidermanalive",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spidermanalive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/client/renderer/SpidermanaliveRenderer.java",
+          "src/main/resources/assets/spiderman_mod/models/item/spidermanalive_spawn_egg.json",
+          "src/main/java/net/mcreator/spidermanmod/entity/SpidermanaliveEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SpiderManSuit",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_man_suit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spiderman_mod/models/item/spider_man_suit_leggings.json",
+          "src/main/resources/assets/spiderman_mod/models/item/spider_man_suit_chestplate.json",
+          "src/main/java/net/mcreator/spidermanmod/item/SpiderManSuitItem.java",
+          "src/main/resources/assets/spiderman_mod/models/item/spider_man_suit_helmet.json",
+          "src/main/resources/assets/spiderman_mod/models/item/spider_man_suit_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "WithGreatPower",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "with_great_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spiderman_mod/advancements/with_great_power.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptywebshooterRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptywebshooter_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/procedures/EmptywebshooterRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Emptywebshooter",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptywebshooter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spiderman_mod/models/item/emptywebshooter.json",
+          "src/main/java/net/mcreator/spidermanmod/item/EmptywebshooterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shooter",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shooter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spiderman_mod/recipes/shooter.json"
+        ]
+      }
+    },
+    {
+      "name": "Shooterreal",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shooterreal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/recipes/brewing/ShooterrealBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Recipes",
+      "type": "gui",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/world/inventory/RecipesMenu.java",
+          "src/main/java/net/mcreator/spidermanmod/client/gui/RecipesScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "RecipeskeybindOnKeyPressed",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipeskeybind_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/procedures/RecipeskeybindOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Recipeskeybind",
+      "type": "keybind",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipeskeybind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spidermanmod/network/RecipeskeybindMessage.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.spiderman_mod.web_shooter": "Web Shooter",
+      "advancements.with_great_power.title": "With Great Power...",
+      "item.spiderman_mod.emptywebshooter": "Empty Web Shooter",
+      "item.spiderman_mod.spider_man_suit_chestplate": "Spider-Man Suit",
+      "gui.spiderman_mod.recipes.label_recipes": "Recipes",
+      "key.spiderman_mod.recipeskeybind": "Recipes",
+      "item.spiderman_mod.spider_man_suit_leggings": "Spider-Man Suit",
+      "item_group.spiderman_mod.spider_man": "Spider-Man Mod",
+      "advancements.with_great_power.descr": "Come Great Responsibilities",
+      "item.spiderman_mod.spider_man_suit_helmet": "Spider-Man Mask",
+      "item.spiderman_mod.spider_man_suit_boots": "Spider-Man Boots",
+      "item.spiderman_mod.spidermanalive_spawn_egg": "Spider-Man Spawn Egg",
+      "entity.spiderman_mod.spidermanalive": "Spider-Man"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "spiderman_mod",
+    "modName": "Spider-Man Mod",
+    "version": "1.0.0",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/eCAHRcTYc9",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "https://discord.gg/eCAHRcTYc9",
+    "modElementsPackage": "net.mcreator.spidermanmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

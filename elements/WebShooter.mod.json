@@ -1,0 +1,52 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "unnamed",
+    "customModelName": "Normal",
+    "name": "Web Shooter",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SpiderMan"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 128,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "WebShooterRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.WEB"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "WebShooterProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "WebShooterProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "WebShooterProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "WebShooterProjectileHitsBlock"
+    }
+  }
+}
